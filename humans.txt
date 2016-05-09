@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+    /* TEAM */
+    Front-End Developer: Alberto Arancibia Bohle.
+    Site: http://www.elbuencamino.com/
+    Twitter: @BetoYggdrasil
+    Location: Santiago, Chile.
+	
+	
+    /* SITE */
+    Last update: 2016/04/02
+    Standards: HTML5, CSS3, Javascript.
+    Components: Modernizr, jQuery, Bootstrap, Wordpress.
+    Software: Sublime Text 2.
+
+
+                    

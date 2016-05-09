@@ -1,0 +1,204 @@
+
+
+.diamondContainer {
+    /*width: 1160px;
+    margin: 100px auto;*/
+    margin: 36px auto 100px;
+    width: 1000px;
+}
+
+.box {
+	/*height: 200px;
+	width: 200px;
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	margin-left: 41px;
+	margin-right: 40px;
+	margin-top: 43px;
+
+	border: 4px solid lightcoral;
+	background: transparent;
+	text-decoration: none;
+	color: lightcoral;*/
+
+    /*border: 4px solid lightcoral;
+    color: lightcoral;*/
+    background: transparent none repeat scroll 0 0;
+    display: inline-block;
+    float: left;
+    height: 175px;
+    margin-left: 35px;
+    margin-right: 35px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    width: 175px;
+
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.diamondContent {
+	width: 175px;
+	height: 175px;
+	display: table-cell;
+	vertical-align: middle;
+
+	text-align: center;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-size: 13px;
+	text-transform: uppercase;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+/*.containerdiamond > div:nth-child(7n+5) {
+	margin-left: 159px;
+}
+.containerdiamond > div:nth-child(n+5) {
+	margin-top: -51px;
+}*/
+.diamondContainer > div:nth-child(5) {
+	background-color: lightcoral;
+}
+.diamondContainer > div:nth-child(6),
+.diamondContainer > div:nth-child(7),
+.diamondContainer > div:nth-child(8) {
+	background-color: #9f1d1f;
+}
+.diamondContainer > div:nth-child(9) {
+	border-color: red;
+    border-style: dashed;
+    border-width: 2px;
+    height: 171px;
+    margin-left: 159px;
+    margin-top: -51px;
+    width: 171px;
+}
+.diamondContainer > div:nth-child(10) {
+	border-color: red;
+    border-style: dashed;
+    border-width: 2px;
+    height: 171px;
+    margin-left: 39px;
+    margin-top: -51px;
+    width: 171px;
+}
+.diamondContainer > div:nth-child(11) {
+	border-color: red;
+    border-style: dashed;
+    border-width: 2px;
+    height: 171px;
+    margin-left: 39px;
+    margin-top: -51px;
+    width: 171px;
+}
+.diamondContainer > div:nth-child(12) {
+	background-color: red;
+    margin-left: 36px;
+    margin-top: -47px;
+    opacity: 0;
+}
+.diamondContainer > div:nth-child(13) {
+	border-bottom: 2px dashed red;
+    border-right: 2px dashed red;
+    height: 171px;
+    margin-left: 36px;
+    margin-top: -47px;
+    width: 171px;
+}
+.diamondContainer > div:nth-child(14) {
+	border-bottom: 2px dashed red;
+    border-right: 2px dashed red;
+    height: 171px;
+    margin-left: 39px;
+    margin-top: -48px;
+    width: 171px;
+}
+.diamondContainer > div:nth-child(15) {
+	background-color: red;
+    margin-left: 36px;
+    margin-top: -47px;
+    opacity: 0;
+}
+.clear::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.bar {
+	background-color: #9f1d1f;
+    display: table;
+    float: left;
+    height: 123px;
+    margin-left: 123px;
+    margin-top: -36px;
+    position: absolute;
+    width: 734px;
+}
+.squareOne {
+	background-color: #840204;
+    display: block;
+    height: 175px;
+    margin-left: 893px;
+    margin-top: -123px;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+    -webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+    width: 175px;
+}
+.squareTwo {
+	background-color: #9f1d1f;
+    display: block;
+    height: 175px;
+    margin-left: 998px;
+    margin-top: -291px;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+    -webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+    width: 300px;
+}
+.diamondContainer p {
+	color: #FFFFFF;
+    display: block;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    width: 1000px;
+    z-index: 20;
+}
+.diamondContent span:nth-child(1) {
+	clear: both;
+    display: block;
+    float: left;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+.diamondContent span:nth-child(2) {
+	clear: both;
+    color: #000000;
+    display: block;
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
