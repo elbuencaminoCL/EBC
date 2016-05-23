@@ -1455,6 +1455,35 @@ header#casoTerraHotel p {
 #casoTerraHotelDisplay .row:nth-child(5) h4 {
     color: #555555;
 }
+#disenoux {
+    background-color: #2D4044;
+    clear: both;
+    display: block;
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 80px 0;
+    width: 100%;
+    z-index: 4;
+}
+#disenoux h3 {
+    color: #FFFFFF;
+    padding: 0 30px;
+}
+#disenoux .underline {
+    background-color: #FFFFFF;
+    clear: both;
+    display: block;
+    height: 1px;
+    margin: 0 auto 35px;
+    width: 100px;
+}
+#disenoux img {
+    height: auto;
+    margin: 0 auto;
+    max-width: 750px;
+    width: 100%;
+}
 #casoTerraHotelSlider {
     background-color: #F3F3F3;
     clear: both;
@@ -1545,6 +1574,29 @@ header#casoTerraHotel p {
 #casoTerraHotelScreens .btn:active {
     background-color: rgba(199, 37, 39, 0.3);
     color: #C72527;
+}
+#disenoIconos {
+    background-color: #FFFFFF;
+    clear: both;
+    display: block;
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 80px 0;
+    width: 100%;
+    z-index: 4;
+}
+#disenoIconos h3 {
+    color: #c72527;
+    padding: 0 30px;
+}
+#disenoIconos .underline {
+    background-color: #c72527;
+    clear: both;
+    display: block;
+    height: 1px;
+    margin: 0 auto 35px;
+    width: 100px;
 }
 
 /* ===================== SERVICIOS PROPERTIES ===================== */
