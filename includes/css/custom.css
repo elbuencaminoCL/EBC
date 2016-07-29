@@ -22,7 +22,7 @@ body {
 	background-color: #FFFFFF;
     display: block;
     float: left;
-    font-size: 14px;
+    font-size: 16px;
 }
 body {
     webkit-tap-highlight-color: #009EE3;
@@ -268,7 +268,7 @@ header#home {
     clear: both;
     display: block;
     float: left;
-    height: 100%;
+    height: 750px;
     margin: 0;
     min-height: 620px;
     padding: 0;
@@ -279,7 +279,7 @@ header#home article {
     background-image: url("../img/demos_cropped1.png");
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: 50% auto;
+    background-size: 80% auto;
     height: inherit;
 }
 header#home #headerCover {
@@ -416,6 +416,7 @@ header#home h2 {
     font-weight: bold;
     line-height: 1.42857;
     margin-bottom: 0;
+    margin-top: 30px;
     opacity: 1;
     padding: 8px 55px;
     white-space: unset;
@@ -437,6 +438,7 @@ header#home h2 {
     padding: 0;
     position: relative;
     width: 100%;
+    height: 440px;
     z-index: 15;
 }
 #homeSlider .projectLogo,
@@ -452,9 +454,7 @@ header#home h2 {
 #homeSlider .projectLogo {
     margin-bottom: 20px;
 }
-#homeSlider .container:nth-child(1) .row .projectLogo img {
-    margin-left: -75px;
-}
+
 #homeSlider .projectExplanation h4 {
     margin-bottom: 20px;
 }
@@ -509,6 +509,7 @@ header#home h2 {
     font-weight: bold;
     line-height: 1.42857;
     margin-bottom: 0;
+    margin-top: 30px;
     opacity: 1;
     padding: 8px 55px;
     white-space: unset;
@@ -962,29 +963,29 @@ header#nosotros p {
     width: 50%;
 }
 #caminantes .row:nth-child(2) div:nth-child(1) .member .memberPic {
-    background-image: url("../img/777f9fd46fce57aa69ad34d2767e573f.jpg");
+    background-image: url("../img/claudio_merino.jpg");
 }
 #caminantes .row:nth-child(2) div:nth-child(2) .member .memberPic {
-    background-image: url("../img/777f9fd46fce57aa69ad34d2767e573f.jpg");
+    background-image: url("../img/martin_merino.jpg");
 }
 #caminantes .row:nth-child(3) div:nth-child(1) .member .memberPic {
-    background-image: url("../img/777f9fd46fce57aa69ad34d2767e573f.jpg");
+    background-image: url("../img/randy_bazan.jpg");
 }
 #caminantes .row:nth-child(3) div:nth-child(2) .member .memberPic {
-    background-image: url("../img/777f9fd46fce57aa69ad34d2767e573f.jpg");
+    background-image: url("../img/juanjo_vargas.jpg");
 }
 #caminantes .row:nth-child(4) div:nth-child(1) .member .memberPic {
-    background-image: url("../img/777f9fd46fce57aa69ad34d2767e573f.jpg");
+    background-image: url("../img/maria_egea.jpg");
 }
 #caminantes .row:nth-child(4) div:nth-child(2) .member .memberPic {
-    background-image: url("../img/777f9fd46fce57aa69ad34d2767e573f.jpg");
+    background-image: url("../img/we_want_you.jpg");
+}
+/*#caminantes .row:nth-child(5) div:nth-child(1) .member .memberPic {
+    background-image: url("../img/maria_egea.jpg");
 }
 #caminantes .row:nth-child(5) div:nth-child(1) .member .memberPic {
-    background-image: url("../img/777f9fd46fce57aa69ad34d2767e573f.jpg");
-}
-#caminantes .row:nth-child(5) div:nth-child(2) .member .memberPic {
-    background-image: url("../img/777f9fd46fce57aa69ad34d2767e573f.jpg");
-}
+    background-image: url("../img/we_want_you.jpg");
+}*/
 #caminantes .row:nth-child(2) div:nth-child(1) .member .memberInfo {
     background-color: #C72527;
 }
@@ -1001,12 +1002,12 @@ header#nosotros p {
     background-color: #9F1D1F;
 }
 #caminantes .row:nth-child(4) div:nth-child(2) .member .memberInfo {
-    background-color: #E69B98;
+    background-color: #AE914B;
 }
 #caminantes .row:nth-child(5) div:nth-child(1) .member .memberInfo {
-    background-color: #C72527;
+    background-color: #AE914B;
 }
-#caminantes .row:nth-child(5) div:nth-child(2) .member .memberInfo {
+#caminantes .row:nth-child(5) div:nth-child(1) .member .memberInfo {
     background-color: #AE914B;
 }
 #caminantes .row:nth-child(2) div:nth-child(1) .member .memberInfo::after {
@@ -1097,21 +1098,21 @@ header#nosotros p {
 #caminantes .row:nth-child(4) div:nth-child(2) .member .memberInfo::after {
 	border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid #E69B98;
+    border-top: 20px solid #AE914B;
     content: "";
     display: inline-block;
     height: 0;
     left: 50%;
     position: absolute;
     top: 50%;
-	-webkit-transform: translateY(-50%) translateX(-25px) rotate(90deg);
-    -moz-transform: translateY(-50%) translateX(-25px) rotate(90deg);
-    -o-transform: translateY(-50%) translateX(-25px) rotate(90deg);
-    -ms-transform: translateY(-50%) translateX(-25px) rotate(90deg);
-    transform: translateY(-50%) translateX(-25px) rotate(90deg);
+	-webkit-transform: translateY(-50%) translateX(-13px) rotate(-90deg);
+    -moz-transform: translateY(-50%) translateX(-13px) rotate(-90deg);
+    -o-transform: translateY(-50%) translateX(-13px) rotate(-90deg);
+    -ms-transform: translateY(-50%) translateX(-13px) rotate(-90deg);
+    transform: translateY(-50%) translateX(-13px) rotate(-90deg);
     width: 20px;
 }
-#caminantes .row:nth-child(5) div:nth-child(1) .member .memberInfo::after {
+/*#caminantes .row:nth-child(5) div:nth-child(1) .member .memberInfo::after {
 	border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid #C72527;
@@ -1127,8 +1128,8 @@ header#nosotros p {
     -ms-transform: translateY(-50%) translateX(-13px) rotate(-90deg);
     transform: translateY(-50%) translateX(-13px) rotate(-90deg);
     width: 20px;
-}
-#caminantes .row:nth-child(5) div:nth-child(2) .member .memberInfo::after {
+}*/
+#caminantes .row:nth-child(5) div:nth-child(1) .member .memberInfo::after {
 	border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid #AE914B;
@@ -1253,7 +1254,7 @@ header#casos p {
     padding: 0 0 70px;
     width: 100%;
 }
-#casosDisplay a::after {
+/*#casosDisplay a::after {
 	-webkit-transition: all 0.35s ease-in-out 0s !important;
 	-moz-transition: all 0.35s ease-in-out 0s !important;
 	-o-transition: all 0.35s ease-in-out 0s !important;
@@ -1268,7 +1269,7 @@ header#casos p {
     position: relative;
     top: 0;
     width: 100%;
-}
+}*/
 #casosDisplay a:hover::after {
     opacity: 1;
 }
@@ -1280,25 +1281,44 @@ header#casos p {
     height: 300px;
 }
 .bg-terral {
-    background-image: url("../img/GroupTerra.png");
+    background-image: url("../img/casos/cabecera-caso-terral.jpg");
+    margin: 15px 0;
 }
 .bg-railEurope {
-    background-image: url("../img/railEurope.png");
+    background-image: url("../img/casos/cabecera-caso-rail-europe.jpg");
+    margin: 15px 0;
 }
-.bg-santanderRio {
-    background-image: url("../img/GroupTerra.png");
+.bg-santander-rio {
+    background-image: url("../img/casos/cabecera-caso-santander-rio.jpg");
+    margin: 15px 0;
 }
 .bg-metlife {
-    background-image: url("../img/metlife1.png");
+    background-image: url("../img/casos/cabecera-caso-metlife-uc.jpg");
+    margin: 15px 0;
 }
 .bg-colegioSantaMaria {
-    background-image: url("../img/colegioSantaMaria.png");
+    background-image: url("../img/casos/cabecera-caso-colegios.jpg");
+    margin: 15px 0;
 }
 .bg-catolica {
-    background-image: url("../img/catolica1.png");
+    background-image: url("../img/casos/cabecera-caso-uc-mobile.jpg");
+    margin: 15px 0;
 }
 .bg-hoyts {
-    background-image: url("../img/hoyts1.png");
+    background-image: url("../img/casos/cabecera-caso-hoyts.jpg");
+    margin: 15px 0;
+}
+.bg-charco {
+    background-image: url("../img/casos/cabecera-caso-charco.jpg");
+    margin: 15px 0;
+}
+.bg-metlife-totem {
+    background-image: url("../img/casos/cabecera-caso-metlife-totem.jpg");
+    margin: 15px 0;
+}
+.bg-embarazo {
+    background-image: url("../img/casos/cabecera-caso-mi-embarazo.jpg");
+    margin: 15px 0;
 }
 .casoInfo {
     background-color: rgba(0, 0, 0, 0.35);
@@ -1307,7 +1327,7 @@ header#casos p {
     float: left;
     height: auto;
     padding: 10px;
-    position: absolute;
+    margin-top: 100px;
     text-align: center;
     width: 100%;
 }
@@ -1659,7 +1679,7 @@ header#servicios p {
 	clear: both;
     display: block;
     float: left;
-    height: 100%;
+    height: 550px;
     margin: 0;
     min-height: 550px;
     padding: 0;
@@ -1701,10 +1721,10 @@ header#servicios p {
     padding: 0;
     position: absolute;
     width: 40%; */
-	background-image: url("../img/colegioSantaMaria.png");
-    background-position: center bottom;
+	background-color: #54838A;
+    background-image: url("../img/icono_consultoria.png");
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
     clear: none;
     display: block;
     float: left;
@@ -1726,7 +1746,7 @@ header#servicios p {
     float: left;
     height: inherit;
     margin: 0;
-    padding: 90px 80px;
+    padding: 40px 80px;
     width: 60%;
 }
 #consultoria .servicioInfo a,
@@ -1770,10 +1790,10 @@ header#servicios p {
     width: 20px;
 }
 #diseno .servicioImg {
-	background-image: url("../img/colegioSantaMaria.png");
-    background-position: center bottom;
+	background-image: url("../img/icono_diseno.png");
+    background-color: #B69C5D;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
     clear: none;
     display: block;
     float: left;
@@ -1788,7 +1808,7 @@ header#servicios p {
     float: left;
     height: inherit;
     margin: 0;
-    padding: 90px 80px;
+    padding: 40px 80px;
     width: 60%;
 }
 #diseno .servicioInfo a,
@@ -1832,10 +1852,10 @@ header#servicios p {
     width: 20px;
 }
 #usabilidad .servicioImg {
-	background-image: url("../img/colegioSantaMaria.png");
-    background-position: center bottom;
+	background-image: url("../img/icono_usabilidad.png");
+    background-color: #BE7A78;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
     clear: none;
     display: block;
     float: left;
@@ -1850,7 +1870,7 @@ header#servicios p {
     float: left;
     height: inherit;
     margin: 0;
-    padding: 90px 80px;
+    padding: 40px 80px;
     width: 60%;
 }
 #usabilidad .servicioInfo a,
@@ -1894,10 +1914,10 @@ header#servicios p {
     width: 20px;
 }
 #contenidosDigitales .servicioImg {
-	background-image: url("../img/colegioSantaMaria.png");
-    background-position: center bottom;
+	background-image: url("../img/icono_contenidos.png");
+    background-color: #C5EAE8;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
     clear: none;
     display: block;
     float: left;
@@ -1912,7 +1932,7 @@ header#servicios p {
     float: left;
     height: inherit;
     margin: 0;
-    padding: 90px 80px;
+    padding: 40px 80px;
     width: 60%;
 }
 #contenidosDigitales .servicioInfo a,
@@ -1956,10 +1976,10 @@ header#servicios p {
     width: 20px;
 }
 #metricas .servicioImg {
-	background-image: url("../img/colegioSantaMaria.png");
-    background-position: center bottom;
+	background-image: url("../img/icono_metricas.png");
+    background-color: #395C86;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
     clear: none;
     display: block;
     float: left;
@@ -1974,7 +1994,7 @@ header#servicios p {
     float: left;
     height: inherit;
     margin: 0;
-    padding: 90px 80px;
+    padding: 40px 80px;
     width: 60%;
 }
 #metricas .servicioInfo a,
@@ -2023,6 +2043,11 @@ header#servicios p {
     max-width: 700px;
     padding: 0 30px;
 }
+#serviciosMetodologia .icono_metodologia{
+    margin: 0 auto;
+}
+
+
 .timeline {
     position: relative;
     padding: 0;
@@ -2425,14 +2450,32 @@ footer a:active {
 #elBuenCamino .owl-dot.active {
     background-color: rgba(159, 29, 31, 1);
 }
-#terral {
-    background-image: url("../img/Group-2.jpg");
+#caso-home1 {
+    background-image: url("../img/casos/caso-app-embarazo-5.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#terralDos {
-    background-image: url("../img/Group-2.jpg");
+#caso-home2 {
+    background-image: url("../img/casos/caso-metlife-uc-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#caso-home3 {
+    background-image: url("../img/casos/caso-hoyts-3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#caso-home4 {
+    background-image: url("../img/casos/caso-terral-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#caso-home5 {
+    background-image: url("../img/casos/caso-colegios-1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2465,7 +2508,7 @@ footer a:active {
     z-index: 100;
 }
 .overlay nav {
-	height: 70%;
+	height: 50%;
     position: relative;
     text-align: center;
     top: 50%;
@@ -3624,12 +3667,6 @@ footer a:active {
 		}
 		#elBuenCamino .owl-dots {
 			display: none;
-		}
-		#terral {
-			background-image: url("../img/Group-2.jpg");
-			background-position: left center;
-			background-repeat: no-repeat;
-			background-size: cover;
 		}
 		#consultoria, 
 		#diseno, 
